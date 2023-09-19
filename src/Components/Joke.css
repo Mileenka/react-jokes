@@ -1,0 +1,37 @@
+.joke {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.8rem;
+  width: calc(15rem + 20vw);
+  height: 30rem;
+  background-color: rgba(0, 0, 0, 0.489);
+  font-size: calc(1.3rem + 0.2vw);
+  letter-spacing: 0.1rem;
+  border-radius: 2rem;
+}
+
+.green,
+.red {
+  width: calc(4rem + 2vw);
+  height: calc(1.7rem + 1vh);
+  margin-top: 2rem;
+  margin-left: 1rem;
+  border-radius: 7px;
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+  text-transform: capitalize;
+  border: none;
+}
+
+.red {
+  background-color: rgba(199, 5, 5, 0.781);
+  color: rgb(255, 255, 255);
+}
+
+.green {
+  background-color: rgba(40, 133, 42, 0.701);
+  color: rgb(255, 255, 255);
+}

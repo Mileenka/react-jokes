@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  width: 15rem;
+  height: 2.5rem;
+  background-color: rgb(80, 0, 84);
+  color: white;
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  border-top: 2px solid rgb(155, 27, 172);
+  border-bottom: 2px solid rgb(234, 150, 245);
+  border-left: none;
+  border-right: none;
+  border-radius: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(80, 0, 84, 0.6);
+}

@@ -1,0 +1,7 @@
+header {
+  margin-bottom: 3rem;
+}
+
+h1 {
+  font-size: calc(2rem + 0.7vw);
+}
