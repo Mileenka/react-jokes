@@ -35,7 +35,7 @@ Joke.propTypes = {
     flags: PropTypes.object.isRequired,
     id: PropTypes.number.isRequired,
     safe: PropTypes.bool.isRequired,
-    joke: PropTypes.string,
+    joke: PropTypes.string
   }).isRequired,
 };
 
