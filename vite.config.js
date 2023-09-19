@@ -6,6 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: "/react-jokes",
   build: {
-    chunkSizeWarningLimit: 1600,
+    chunkSizeWarningLimit: 1600
   },
 });
